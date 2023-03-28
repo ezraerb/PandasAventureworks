@@ -1,0 +1,31 @@
+Simple project to analyze aspects of a dataset using pandas. The dataset is Adventureworks,
+one of the classic sets for learning data analysis. It simpulates a bicycle repair shop. It
+contains enough tables and data to enable robust and interesting analysis, without being
+overwhelming. It can be downloaded here: https://github.com/lorint/AdventureWorks-for-Postgres
+
+This code was run on Python 3.9. Install needed packages with 'pip install -r requirements.txt'
+
+The code does three analyses to exercise various pandas functionality, and produces the
+following output files:
+inventory_by_product_model.csv - total inventory on hand broken out by product model
+total_cost_by_location.csv - total cost to buy or produce all inventory at each location
+total_product_discount_by_quarter.csv - difference between list price and actual selling price
+  for all saleable products for which records exist, broken out by product and quarter
+
+  Copyright (C) 2023   Ezra Erb
+
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License version 3 as published
+  by the Free Software Foundation.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+  I'd appreciate a note if you find this program useful or make
+  updates. Please contact me through LinkedIn or github (my profile also has
+  a link to the code depository)
